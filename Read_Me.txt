@@ -6,7 +6,7 @@ This Python script reads data from a USB barcode scanner, decodes the HID key co
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/KommandantFranz/Python_QR-Code_Scanner.git
+    git clone https://github.com/Christoph Lange/Python_QR-Code_Scanner.git
     cd usb-barcode-scanner-reader
     ```
 
