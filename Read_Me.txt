@@ -21,10 +21,19 @@ This Python script reads data from a USB barcode scanner, decodes the HID key co
     - Replace `VENDOR_ID` and `PRODUCT_ID` with your USB device's vendor and product IDs.
     - Update the `FILE_PATH` with the desired path to save the data.
 
-4. **Run the script**:
+4. **Configure your scanner**:
+
+    -open the libusb-win32-install-1.2.6.0 folder and execute inf.wizard.exe 
+    -go throgh the setup and insert all the information needed. You can find the MI for example in USB Device Viewer where its called iManufacturer.
+    -save the file and finish the setup.
+    -open libusb-win32-install-1.2.6.0 folder and go to the amd64 folder. There execute the install-filter-win.exe.
+    -select your devie and finish the setup.
+
+ **Run the script**:
     ```bash
-    python scanner_reader.py
+    python Scanner_reader.py
     ```
+    or run in Visual Studio
 
 ## Notes
 
@@ -33,4 +42,4 @@ This Python script reads data from a USB barcode scanner, decodes the HID key co
 
 ## License
 
-This project is licensed under the AGPL License.
+This project is licensed under the AGPL License for non comercial use.
